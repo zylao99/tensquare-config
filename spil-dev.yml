@@ -5,11 +5,11 @@ spring:
     name: tensquare-spit
   data:
     mongodb:
-      host: 134.175.16.139
+      host: 192.168.1.132
       port: 27017
       database: spitdb
   redis:
-    host: 134.175.16.139
+    host: 192.168.1.132
     port: 6379
 eureka:
   client:
