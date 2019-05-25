@@ -5,7 +5,7 @@ spring:
     name: tensquare-qa #指定服务名
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.132:3306/tensquare_qa?useUnicode=true&amp;characterEncoding=UTF8
+    url: jdbc:mysql://192.168.1.3:3306/tensquare_qa?useUnicode=true&amp;characterEncoding=UTF8
     username: root
     password: 123456
   jpa: 
@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     service‐url:
-      defaultZone: http://localhost:6868/eureka
+      defaultZone: http://192.168.1.3:6868/eureka
     instance:
       prefer‐ip‐address: true
 feign:    #开启熔断器
