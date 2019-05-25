@@ -5,7 +5,7 @@ spring:
     name: tensquare-friend
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.132:3306/tensquare_friend?useUnicode=true&amp;characterEncoding=UTF8
+    url: jdbc:mysql://192.168.1.3:3306/tensquare_friend?useUnicode=true&amp;characterEncoding=UTF8
     username: root
     password: 123456
   jpa:
@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:6868/eureka
+      defaultZone: http://192.168.1.3:6868/eureka
   instance:
     prefer-ip-address: true
 jwt:
