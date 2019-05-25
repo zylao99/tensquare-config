@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:6868/eureka #指定eureka注册地址
+      defaultZone: http://192.168.1.3:6868/eureka #指定eureka注册地址
 zuul:
   routes:
     tensquare-base:
